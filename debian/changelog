@@ -1,0 +1,5 @@
+prometheus (2.23.0) stable; urgency=medium
+
+  * Initial release.
+
+ -- Cynthia <me@cynthia.re>  Tue, 08 Dec 2020 12:31:24 +0100

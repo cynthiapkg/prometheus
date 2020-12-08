@@ -1,0 +1,14 @@
+Source: prometheus
+Maintainer: Cynthia <me+repo@cynthia.re>
+Build-Depends: debhelper-compat (>= 12), dh-golang, golang-any
+Standards-Version: 4.4.0
+Rules-Requires-Root: no
+XS-Go-Import-Path: github.com/prometheus/prometheus/cmd/...
+Vcs-Browser: https://github.com/prometheus/prometheus
+Vcs-Git: https://github.com/prometheus/prometheus.git
+
+Package: prometheus
+Priority: extra
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Prometheus
